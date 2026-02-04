@@ -37,7 +37,7 @@ def generate_fake_data():
     return {
         "ID": random.randint(1000, 9999),  # Unique ID to avoid duplicates
         "time": int(time.time()),
-        "profile_name": "fake_smart_meter",
+        "profile_name": "DESIGN_DEMO_FAKE_ROW",
         "temperature": round(random.uniform(15, 35), 2),
         "humidity": round(random.uniform(30, 70), 2),
         "pressure": round(random.uniform(900, 1100), 2)
